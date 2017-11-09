@@ -1,4 +1,9 @@
 # LoginCarrefour
+User Name : carrefour
+Password : marhaba
+
+# Authentication
+user cannot access the dashboard page without login.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
