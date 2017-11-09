@@ -1,0 +1,28 @@
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+@media (min-width: 768px)
+{
+.navbar-right {
+    float: right!important;
+    margin-right: 80px;
+    margin-top: 45px;
+}
+}
+.search{
+    border: 0;
+    color: #1462bd;
+    background: rgb(237, 244, 251);
+    border-radius: 4px;
+}
+.searchinp{
+    background: rgb(237, 244, 251);
+    border: 0;
+    line-height:-1;
+    
+}
+.navbar-form{
+    border:0;
+    margin-top: 60px;
+}

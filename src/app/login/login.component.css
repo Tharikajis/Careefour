@@ -1,0 +1,145 @@
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 5px;
+    padding: 40px 0px 20px 0px;
+    background-color: #fff;
+    -moz-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    
+    font-weight: 600;
+   
+}
+.form-control{
+    font-size: 1.3rem !important;
+    border-color: aliceblue;
+    border-radius: 5px !important;
+}
+label{
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.mycheckbox {
+  position: absolute;
+  opacity: 0;
+}
+.mycheckbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.mycheckbox + label:before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: #eee;
+  border: 1px solidrgb(192, 183, 183);
+  border-radius: 5px;
+}
+.mycheckbox:hover + label:before {
+  background: #1f61a5;
+  border-radius: 3px
+}
+.mycheckbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.mycheckbox:checked + label:before {
+  background: #1f61a5;
+  border-radius: 3px
+}
+.mycheckbox:disabled + label {
+    background: #1f61a5;
+  cursor: auto;
+}
+.mycheckbox:disabled + label:before {
+  box-shadow: none;
+  background: #1f61a5;
+}
+.mycheckbox:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  background: #1f61a5;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+
+
+.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.centered {
+  width: 300px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: #4571ec;
+}
+.ng-valid[required], .ng-valid.required  {
+  border: 1px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border: 1px solid #a94442; /* red */
+}
